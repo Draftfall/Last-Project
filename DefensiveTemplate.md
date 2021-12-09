@@ -1,10 +1,17 @@
-Table of Contents
-Network Topology
+Table of Contents 
+
+Network Topology 
+
 Description of Targets
+
 Monitoring the Targets
+
 Patterns of Traffic and Behavior
+
 Suggestions for Going Further
+
 Network Topology
+
 The following machines were identified on the network:
 
 Kali
@@ -15,6 +22,7 @@ Purpose:
 The Penetration Tester
 IP Address:
 192.168.1.90
+
 ELK
 
 Operating System:
@@ -23,6 +31,7 @@ Purpose:
 The ELK (Elasticsearch and Kibana) Stack
 IP Address:
 192.168.1.100
+
 Target 1
 
 Operating System:
@@ -31,6 +40,7 @@ Purpose:
 The WordPress Host
 IP Address:
 192.168.1.110
+
 Capstone
 
 Operating System:
@@ -42,6 +52,7 @@ IP Address:
 Network Diagram:
 
 Network Diagram
+![image](https://user-images.githubusercontent.com/85657022/145329573-30e18ddc-0b4c-4405-b5b7-746b823d4d8b.png)
 
 Description of Targets
 Target 1 (192.168.1.110) 
@@ -55,7 +66,7 @@ Target 1
 
 Port 22/TCP Open SSH OpenSSH 6.7p1 Debian 5+deb8u4
 Port 80/TCP Open HTTP Apache httpd 2.4.10 (Debian)
-Nmap Target 1 Ports
+![image](https://user-images.githubusercontent.com/85657022/145329700-cab4db42-4dae-402b-af75-91b4532759f1.png)
 
 Traffic to these services should be monitored. I have implemented these alerts below:
 
