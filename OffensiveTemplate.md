@@ -87,7 +87,7 @@ The Red Team penetrated Target 1 and retrieved the following confidential data:
             - `use wordpress;` 
             - `show tables;`
             - `select * from wp_posts;`
-            - 
+
 ![image](https://user-images.githubusercontent.com/85657022/145332403-6992904e-8e8a-43b7-a9ad-732b9d6d091c.png)
 
 
@@ -102,9 +102,10 @@ The Red Team penetrated Target 1 and retrieved the following confidential data:
                 - `show databases;`
                 - `use wordpress;` 
                 - `show tables;`
-                - `select * from wp_users;`
+                - `select * from wp_users;
+                - 
+![image](https://user-images.githubusercontent.com/85657022/145333323-21291681-a30d-4d12-b21d-3cc1bec3032d.png)
 
-        - ![wp_users table](/Images/wpusers-table.png "wp_users table")
 
         - On the Kali local machine the wp_hashes.txt was run against John the Ripper to crack the hashes. 
             - Command:
